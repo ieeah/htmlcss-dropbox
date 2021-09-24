@@ -36,7 +36,34 @@ p {
     font-size: 1.5em;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.lh35px {
+    line-height: 35px;
+}
+
 /* UTILITIES */
+
+    /* buttons */
+    .btn {
+        padding: 0 20px;
+    }
+
+    .blue_bg {
+        background-color: #0061ff;
+    }
+
+    .btn.blue_bg a {
+        color: white;
+    }
+
+    .outline {
+        outline: 1px solid black;
+        color: black;
+    }
 
     /* positioning */
     .centered {
@@ -128,14 +155,8 @@ header nav.left {
     width: calc(100% - 150px);
 }
 
-header nav .left {
-    background-color: yellow;
-    min-width: 100px;
-    height: 60px;
-}
-
-header nav .right {
-    background-color: red;
-    min-width: 100px;
-    height: 60px;
+header nav li {
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: 600;
 }
