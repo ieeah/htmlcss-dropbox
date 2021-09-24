@@ -1,0 +1,110 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TYPO STYLES */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: light;
+}
+
+h1, h3, h4, h6 {
+    font-weight: 700;
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h6 {
+
+}
+
+/* UTILITIES */
+
+    /* positioning */
+    .centered {
+        margin: 0 auto;
+    }
+
+    /* floating */
+
+    .clearfix {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+
+    /* padding */
+    .ptop30px {
+        padding-top: 30px;
+    }
+
+    .px20px {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .py80px {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    /* margin */
+    .mx20px {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .mtop10px {
+        margin-top: 10px;
+    }
+
+    /* widths */
+
+    .w20 {
+        width: 20%;
+    }
+
+    .w30 {
+        width: 30%;
+    }
+
+    .w40 {
+        width: 40%;
+    }
+
+    .w50 {
+        width: 50%;
+    }
+
+    .w60 {
+        width: 60%;
+    }
+
+    .w80 {
+        width: 80%;
+    }
+
+/* STYLING */
+header {
+    height: 60px;
+    line-height: 60px;
+}
