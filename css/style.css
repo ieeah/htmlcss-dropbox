@@ -344,6 +344,4 @@ ul.points li i {
 /* FUNCTIONS */
 .card {
     width: calc(100% / 3);
-    height: 400px;
-    outline: 2px solid black;
 }
