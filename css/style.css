@@ -58,12 +58,21 @@ a {
     color: white;
 }
 
+.azure_text {
+    color: #0161ff;
+}
+
 .al_center {
     text-align: center;
 }
 
 /* UTILITIES */
+    /* miscellanea */
 
+    .central_column {
+        width: 30%;
+        margin: 0 5%;
+    }
     /* buttons */
     .btn {
         padding: 5px 20px;
@@ -204,7 +213,7 @@ ul li {
     display: inline-block;
     font-weight: 600;
     vertical-align: middle;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 /* HEADER */
@@ -270,10 +279,14 @@ header li {
 }
 
 .column {
-    height: 1000px;
+    height: 1100px;
 }
 
 .column li, footer li {
     margin-top: 20px;
 }
 
+ul.points li i {
+    color: #0161ff;
+    filter: drop-shadow(0 0 1px #478eff);
+}
