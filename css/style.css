@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.test {
+    background-color: red;
+}
+
 /* TYPO STYLES */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -197,6 +201,10 @@ a {
         margin-bottom: 50px;
     }
 
+    .mb100px {
+        margin-bottom: 100px;
+    }
+
     /* widths */
 
     .w20 {
@@ -331,4 +339,11 @@ ul.points li i {
 #partner > div > div.w40 {
     padding-left: 50px;
     line-height: 45px;
+}
+
+/* FUNCTIONS */
+.card {
+    width: calc(100% / 3);
+    height: 400px;
+    outline: 2px solid black;
 }
