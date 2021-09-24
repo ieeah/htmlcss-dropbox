@@ -7,6 +7,11 @@
 
 .test {
     background-color: red;
+    border: 2px solid black;
+}
+
+.htest {
+    height: 300px;
 }
 
 /* TYPO STYLES */
@@ -286,7 +291,7 @@ header li {
 }
 
 #why .container > div img {
-    width: 120%;
+    width: 110%;
     position: relative;
     top: 110px;
     right: 150px;
@@ -299,10 +304,6 @@ header li {
 }
 
 /* PIANI */
-
-#plans .container h3 {
-    margin-bottom: 50px;
-}
 
 #plans form input {
     margin-right: 2px;
@@ -344,4 +345,12 @@ ul.points li i {
 /* FUNCTIONS */
 .card {
     width: calc(100% / 3);
+}
+
+#functions > div.centered > div h3 {
+    padding-right: 42%;
+}
+
+.customer_logo {
+    height: 50%;
 }
