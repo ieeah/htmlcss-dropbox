@@ -25,11 +25,11 @@ h3 {
 }
 
 h4 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 h6 {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 p {
@@ -50,6 +50,10 @@ a {
     font-size: 1.8em;
 }
 
+.fsz23 {
+    font-size: 2.3em;
+}
+
 .lh35px {
     line-height: 35px;
 }
@@ -64,6 +68,10 @@ a {
 
 .al_center {
     text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 /* UTILITIES */
@@ -117,6 +125,10 @@ a {
     }
 
     /* padding */
+    .ptop20px {
+        padding-top: 20px;
+    }
+
     .ptop30px {
         padding-top: 30px;
     }
@@ -160,8 +172,20 @@ a {
         margin-top: 50px;
     }
 
+    .my30px {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     .my50px {
         margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .mb30px {
+        margin-bottom: 30px;
+    }
+    .mb50px {
         margin-bottom: 50px;
     }
 
@@ -289,4 +313,8 @@ header li {
 ul.points li i {
     color: #0161ff;
     filter: drop-shadow(0 0 1px #478eff);
+}
+
+.enterprise_head > a.btn {
+    transform: translateY(8px);
 }
