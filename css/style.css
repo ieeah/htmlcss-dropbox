@@ -39,6 +39,7 @@ p {
 a {
     color: black;
     text-decoration: none;
+    display: inline-block;
 }
 
 .fsz18 {
@@ -61,8 +62,9 @@ a {
 
     /* buttons */
     .btn {
-        padding: 4px 20px;
+        padding: 5px 20px;
         font-size: 2.2em;
+        text-align: center;
     }
 
     .blue_bg {
@@ -138,6 +140,10 @@ a {
         margin-top: 10px;
     }
 
+    .mtop30px {
+        margin-top: 30px;
+    }
+
     /* widths */
 
     .w20 {
@@ -162,6 +168,10 @@ a {
 
     .w80 {
         width: 80%;
+    }
+
+    .w100 {
+        width: 100%;
     }
 
     /* background */
@@ -250,10 +260,4 @@ ul li {
 
 .column li, footer li {
     margin-top: 20px;
-}
-
-#prova{
-    background-color: red;
-    width: 100%;
-    height: 300px;
 }
