@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .test {
@@ -10,15 +11,13 @@
     border: 2px solid black;
 }
 
-.htest {
-    height: 300px;
-}
-
 /* TYPO STYLES */
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 10px;
+
+    margin: 20px;
 }
 
 h1, h3, h4, h6 {
@@ -74,9 +73,15 @@ a {
 .azure_text {
     color: #0161ff;
 }
-
+.purple_text {
+    color: #61082b;
+}
 .al_center {
     text-align: center;
+}
+
+.al_right {
+    text-align: right;
 }
 
 .underline {
@@ -90,6 +95,11 @@ a {
         width: 30%;
         margin: 0 5%;
     }
+
+    .bottom_gray_border {
+        border-bottom: 1px solid gray;
+    }
+
     /* buttons */
     .btn {
         padding: 5px 20px;
@@ -121,6 +131,13 @@ a {
 
     .v_middle {
         vertical-align: middle;
+    }
+
+    .absolute_center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     /* floating */
@@ -164,12 +181,43 @@ a {
         padding-right: 20px;
     }
 
+    .py20px {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .py80px {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .py150px {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
     .pl20px {
         padding-left: 20px;
     }
 
+    .pr50px {
+        padding-right: 50px;
+    }
+
+    .pb80px {
+        padding-bottom: 80px;
+    }
+
     .pb100px {
         padding-bottom: 100px;
+    }
+
+    .pxy80px {
+        padding: 80px;
+    }
+
+    .pxy150px {
+        padding: 150px;
     }
 
     /* margin */
@@ -211,9 +259,20 @@ a {
     }
 
     /* widths */
+    .w10 {
+        width: 10%;
+    }
+
+    .w15 {
+        width: 15%;
+    }
 
     .w20 {
         width: 20%;
+    }
+
+    .w25 {
+        width: 25%;
     }
 
     .w30 {
@@ -232,17 +291,77 @@ a {
         width: 60%;
     }
 
+    .w70 {
+        width: 70%;
+    }
+    
+    .w75 {
+        width: 75%;
+    }
+
     .w80 {
         width: 80%;
+    }
+
+    .w90 {
+        width: 90%;
     }
 
     .w100 {
         width: 100%;
     }
 
+    .h100 {
+        height: 100%;
+    }
+
     /* background */
+
+    .bg_black {
+        background-color: black;
+    }
     .bg_light {
     background-color: #b4d0e7;
+    }
+
+    .bg_green {
+        background-color: #a2d39b;
+    }
+
+    .bg_brown {
+        background-color: #61082b;
+    }
+
+    .bg_lt_blue {
+        background-color: #0093ce;
+    }
+
+    .bg_red_1 {
+        background-color: #ff1c1c;
+    }
+
+    .bg_red_2 {
+        background-color: #d5001f;
+    }
+
+    .bg_lt_grey {
+        background-color: #f5f5f5;
+    }
+
+    .bg_lt_azure {
+        background-color: #b4d0e7;
+    }
+
+    .bg_dark_blue {
+        background-color: #0d2481;
+    }
+
+    .bg_yellow {
+        background-color: #ffd830;
+    }
+
+    .bg_white {
+        background-color: white;
     }
 
 /* STYLING */
@@ -264,10 +383,12 @@ ul li {
 /* HEADER */
 header {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 header .brand img {
@@ -283,7 +404,19 @@ header li {
     font-size: 1.8em;
 }
 
+.hdr_link {
+    border-bottom: 3px solid transparent;
+}
+
+.hdr_link:hover {
+    border-color: #081753;
+}
+
 /* JUMBO */
+
+#why {
+    margin-top: 80px;
+}
 
 #why .container > div p {
     padding-right: 180px;
@@ -291,10 +424,9 @@ header li {
 }
 
 #why .container > div img {
-    width: 110%;
+    width: 100%;
     position: relative;
     top: 110px;
-    right: 150px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
@@ -320,7 +452,7 @@ header li {
 }
 
 .column {
-    height: 1100px;
+    height: 1400px;
 }
 
 .column li, footer li {
@@ -351,6 +483,36 @@ ul.points li i {
     padding-right: 42%;
 }
 
-.customer_logo {
-    height: 50%;
+/* CUSTOMERS */
+
+.customers_logos_container, .focus_customer {
+    height: 762px;
+}
+
+.customerlogo {
+    height: 381px;
+    /* width: 381px; */
+    width: 50%;
+    /* height: 50%; */
+    border: 15px solid transparent;
+    position: relative;
+}
+
+.customerlogo img {
+    filter: invert(1);
+}
+
+.customerlogo:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* FAQ */
+
+/* FOOTER */
+footer {
+    height: 800px;
+}
+
+.prova {
+    height: 300px;
 }

@@ -13,24 +13,27 @@
 </head>
 
 <body>
-
-    <header class="px20px clearfix">
+    <!-- brand & Nav -->
+    <header class="px20px clearfix bg_white">
+        <!-- brand logo -->
         <div class="brand left">
             <img class="v_middle" src="./img/logo-small.png" alt="">
         </div>
+        <!-- left navigation -->
         <nav class="left px20px">
             <div class="left">
                 <ul>
-                    <li class="mx20px"><a href="">Perché Dropbox?</a></li>
-                    <li class="mx20px"><a href="">Funzioni</a></li>
-                    <li class="mx20px"><a href="">Piani e prezzi</a></li>
+                    <li class="mx20px hdr_link"><a href="#why">Perché Dropbox?</a></li>
+                    <li class="mx20px hdr_link"><a href="#functions">Funzioni</a></li>
+                    <li class="mx20px hdr_link"><a href="#plans">Piani e prezzi</a></li>
                 </ul>
             </div>
+            <!-- right navigation -->
             <div class="right">
                 <ul>
-                    <li class="mx20px"><a href="">Supporto</a></li>
-                    <li class="mx20px"><a href="">Contatta l'ufficio vendite</a></li>
-                    <li class="mx20px"><a href="">Accedi</a></li>
+                    <li class="mx20px hdr_link"><a href="">Supporto</a></li>
+                    <li class="mx20px hdr_link"><a href="">Contatta l'ufficio vendite</a></li>
+                    <li class="mx20px hdr_link"><a href="">Accedi</a></li>
                     <li class="mx20px btn blue_bg white_text lh35px"><a href="">Inizia</a></li>
                 </ul>
             </div>
@@ -38,9 +41,10 @@
     </header>
 
     <section id="why" class="ptop150px bg_light">
+        <!-- section title -->
         <div class="container w80 centered clearfix">
             <h1>Tutto ciò che ti serve per il lavoro in un unico posto</h1>
-            <div class="w40 left">
+            <div class="w30 left">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam labore inventore, voluptatibus dignissimos nobis eum, aliquam, neque ex hic perferendis et repellat? Fugit nostrum a, reiciendis recusandae illum dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint at eligendi, dolorem libero aliquam quis voluptate totam provident quam eum ea architecto nihil porro illum minima. Tenetur eius nihil alias.
                 </p>
@@ -49,20 +53,20 @@
                     <div class="ptop30px fsz18">
                         Annulla in qualsiasi momento
                     </div>
-                    <a class="fsz18" href="#">
+                    <a class="fsz18" href="#plans">
                         <i class="fas fa-arrow-down"></i>
                     </a>
                 </div>
             </div>
-            <div class="w60 left">
+            <div class="w70 left">
                 <img class="" src="./img/jumbo.png" alt="">
             </div>
         </div>
     </section>
 
-    <section id="plans" class="ptop150px">
+    <section class="ptop150px">
 
-        <div class="container w60 centered ptop150px">
+        <div id="plans" class="container w60 centered ptop150px">
 
             <div class="columns_head">
                 <h3 class="mb50px">Trova il piano dropbox business che fa per te</h3>
@@ -138,7 +142,7 @@
 
                 <div class="column central_column left w30 outline">
                     <div class="al_center fsz18 col_head">
-                        <i class="far fa-building"></i>
+                        <i class="v_middle far fa-building"></i>
                         <span class="v_middle">Team</span>
                     </div>
                     <div class="pricing ptop30px pl20px">
@@ -172,7 +176,6 @@
                                 <i class="fas fa-check"></i>
                                 invia file fino a 100GB con Dropbox transfert
                             </li>
-                            
                             <li>
                                 <i class="fas fa-check"></i>
                                 cartelle offline su dispositivi mobili
@@ -198,6 +201,18 @@
                                 <i class="fas fa-check"></i>
                                 cartelle offline su dispositivi mobili
                             </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                cartelle offline su dispositivi mobili
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                pulizia remota dell'account
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Filigrana documento
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -205,7 +220,7 @@
                 <div class="column left w30 outline">
 
                     <div class="al_center fsz18 col_head">
-                        <i class="far fa-building"></i>
+                        <i class="v_middle far fa-building"></i>
                         <span class="v_middle">Team</span>
                     </div>
 
@@ -348,7 +363,7 @@
             <div class="centered">
                 <div >
                     <h3 class="mtop50px">Più di 500.000 team utilizzano Dropbox business</h3>
-                    <a class="fsz23 my30px azure_text underline">
+                    <a class="fsz23 mtop30px mb50px azure_text underline">
                         scopri di più sui nostri clienti
                     </a>
                 </div>
@@ -356,17 +371,90 @@
         </div>
     </section>
 
-    <section id="customers" class="clearfix w100 htest">
-        <div class="w30 left clearfix">
-            <div class="customerlogo left w50 test"></div>
-            <div class="customerlogo left w50 test"></div>
-            <div class="customerlogo left w50 test"></div>
-            <div class="customerlogo left w50 test"></div>
+    <section id="customers" class="w100">
+
+        <div class="w100 container clearfix">
+            <div class="customers_logos_container w30 left clearfix">
+                <div class="customerlogo left bg_green">
+                    <img class="w60 absolute_center" src="./img/designit.svg" alt="">
+                </div>
+                <div class="customerlogo left bg_brown">
+                    <img class="w60 absolute_center" src="./img/arizona_state_university.svg" alt="">
+                </div>
+                <div class="customerlogo left bg_lt_blue">
+                    <img class="w60 absolute_center" src="./img/university_of_florida.svg" alt="">
+                </div>
+                <div class="customerlogo left bg_red_1">
+                    <img class="w60 absolute_center" src="./img/topps.svg" alt="">
+                </div>
+            </div>
+
+            <div class="box w40 left pxy80px focus_customer">
+                <div>
+                    <img class="w15" src="./img/designit.svg" alt="">
+                    <hr class="w10 mtop50px mb100px">
+                    <p class="mb100px">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque doloribus eveniet facilis nisi recusandae praesentium consequatur ad adipisci pariatur, voluptatem labore quis expedita odit perferendis quaerat laudantium ex repudiandae libero.
+                    </p>
+                    <span class="fsz23">
+                        Marten Thomsen, Global IT Leader
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="customers_logos_container w30 left clearfix">
+                <div class="customerlogo left bg_red_2">
+                    <img class="w60 absolute_center" src="./img/world_bicycle_relief.svg" alt="">
+                </div>
+                <div class="customerlogo left bg_lt_azure">
+                    <img class="w60 absolute_center" src="./img/hearst_corp.svg" alt="">
+                </div>
+                <div class="customerlogo left bg_dark_blue">
+                    <img class="w60 absolute_center" src="./img/lonely_planet.svg" alt="">
+                </div>
+                <div class="customerlogo left bg_yellow">
+                    <img class="w60 absolute_center" src="./img/clear_channel.svg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="box w40 left test"></div>
-        <div class="box w30 left test"></div>
+
+        <div class="w100 bg_light py80px">
+            <div class="container w60 ptop150px centered clearfix">
+                <div class="left w70">
+                    <h3 class="w75 purple_text">
+                        Porta Dropbox business nella tua azienda.
+                    </h3>
+                </div>
+                <div class="left w25 al_center ptop20px">
+                    <a href="" class="btn bg_white w90">
+                        Inizia la tua prova gratuita
+                    </a>
+                </div>
+            </div>
+        </div>
 
     </section>
+
+    <section id="faq">
+        <div class="container w60 centered py150px">
+            <h4 class="bottom_gray_border pb80px">Domande Frequenti</h4>
+            <div class="fa_question bottom_gray_border py20px clearfix w100">
+                <h6 class="py20px left w90 fsz23">
+                    Qual è la differenza tra Dropbox Business Standard e Dropbox business Advanced?
+                </h6>
+                <p class="left w10 fsz23 py20px al_right pr50px">
+                    <i class="fas fa-chevron-down"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg_black py80px">
+        <div class="w80 centered clearfix">
+            <div class="w20 left blue_bg prova bd2px"></div>
+        </div>
+    </footer>
 
 </body>
 </html>
