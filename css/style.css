@@ -58,6 +58,10 @@ a {
     font-size: 1.8em;
 }
 
+.fsz20 {
+    font-size: 2em;
+}
+
 .fsz23 {
     font-size: 2.3em;
 }
@@ -202,6 +206,10 @@ a {
 
     .pr50px {
         padding-right: 50px;
+    }
+
+    .pb20px {
+        padding-bottom: 20px;
     }
 
     .pb80px {
@@ -374,11 +382,10 @@ span {
 }
 
 ul li {
-    display: inline-block;
     font-weight: 600;
     vertical-align: middle;
-    font-size: 2em;
 }
+
 
 /* HEADER */
 header {
@@ -400,12 +407,9 @@ header nav.left {
     width: calc(100% - 150px);
 }
 
-header li {
-    font-size: 1.8em;
-}
-
 .hdr_link {
     border-bottom: 3px solid transparent;
+    font-size: 1.8em;
 }
 
 .hdr_link:hover {
@@ -457,6 +461,7 @@ header li {
 
 .column li, footer li {
     margin-top: 20px;
+    font-size: 2em;
 }
 
 ul.points li i {
@@ -515,4 +520,12 @@ footer {
 
 .prova {
     height: 300px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+.border_top_white {
+    border-top: 1px solid white;
 }
