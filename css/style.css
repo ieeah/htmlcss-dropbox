@@ -496,9 +496,9 @@ ul.points li i {
 }
 
 .customers_brands {
-    /* width: 50%;
-    height: 50%; */
-    width: 381px;
+    width: 50%;
+    /* height: 50%; */
+    /* width: 381px; */
     height: 381px;
     border: 15px solid transparent;
     position: relative;
