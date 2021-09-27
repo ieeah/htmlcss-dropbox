@@ -107,6 +107,10 @@ a {
         border-bottom: 1px solid gray;
     }
 
+    .hidden {
+        overflow: hidden;
+    }
+
     /* buttons */
     .btn {
         padding: 5px 20px;
@@ -497,9 +501,7 @@ ul.points li i {
 
 .customers_brands {
     width: 50%;
-    /* height: 50%; */
-    /* width: 381px; */
-    height: 381px;
+    height: 50%;
     border: 15px solid transparent;
     position: relative;
 }
@@ -514,7 +516,19 @@ ul.points li i {
 
 
 /* FAQ */
+.fa_question {
+    height: 112px;
+    transition: height .4s ease-in-out;
+}
 
+
+.fa_question:hover {
+    height: 320px;
+}
+
+.fa_question:hover i {
+    transform: rotate(180deg);
+}
 /* FOOTER */
 
 footer ul li {
